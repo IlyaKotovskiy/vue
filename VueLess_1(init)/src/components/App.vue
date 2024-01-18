@@ -1,19 +1,17 @@
 <template>
-    <h1 class="title">Hello world!</h1>
-    <block></block>
-    <content-list></content-list>
+  <block></block>
 </template>
 
 <script>
-  import Block from './Block.vue';
-  import ContentList from './ContentList.vue';
+import Block from './Block.vue'
+import ContentList from './ContentList.vue'
 
-  export default {
-    components: {
-      Block,
-      ContentList
-    }
+export default {
+  components: {
+    Block,
+    ContentList
   }
+}
 </script>
 
 <style>
