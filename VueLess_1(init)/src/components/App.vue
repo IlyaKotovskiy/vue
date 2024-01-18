@@ -1,20 +1,27 @@
 <template>
-  <block></block>
+  <cycle></cycle>
 </template>
 
 <script>
-import Block from './Block.vue'
-import ContentList from './ContentList.vue'
+import Block from './Block.vue';
+import Cycle from './Cycle.vue';
 
 export default {
   components: {
     Block,
-    ContentList
+    Cycle
   }
 }
 </script>
 
 <style>
+  * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  p {
+    margin: 0;
+  }
   .title {
     color: red;
   }
