@@ -12,14 +12,16 @@
     @handle="log"
   ></props-example> -->
 
-  <product-cart
+  <!-- <product-cart
     v-for="product in products"
     :key="product.id"
     :id="product.id"
     :title="product.title"
     :price="product.price"
     @deleteProductById="deleteProductById"
-  ></product-cart>
+  ></product-cart> -->
+
+  <product-form></product-form>
 </template>
 
 <script>
@@ -27,6 +29,7 @@ import Counter from './components/Counter.vue';
 import UserList from './components/UserList.vue';
 import PropsExample from './components/PropsExample.vue';
 import ProductCart from './components/ProductCart.vue';
+import ProductForm from './components/CartForm.vue';
 
 
 export default {
@@ -34,7 +37,8 @@ export default {
     Counter,
     UserList,
     PropsExample,
-    ProductCart
+    ProductCart,
+    ProductForm
   },
   data() {
     return {
