@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.todo_item {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 170px;
+  padding: 10px;
+
+  outline: 2px solid #000;
+  box-shadow: 5px 5px 5px #000;
+  cursor: pointer;
+}
+
+.input_elem {
+  display: flex;
+  justify-content: center;
+
+}
+
+.input_elem > input {
+  width: 100%;
+  box-shadow: 5px 5px 5px #000;
+}
